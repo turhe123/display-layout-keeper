@@ -1,5 +1,7 @@
 # DisplayLayoutKeeper
 
+**🌐 Website:** [turhe123.github.io/display-layout-keeper](https://turhe123.github.io/display-layout-keeper/)
+
 Remembers where your windows sit for each monitor setup and restores them when displays change.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,13 @@ Limitations: minimized windows and windows on other Spaces can't be reached thro
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="DisplayLayoutKeeper menu bar menu" width="720"></p>
+
+<p align="center"><em>The menu bar menu shows the current monitor setup, the saved-layout status, Save Now and Restore Now, and the Known Configurations submenu.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="DisplayLayoutKeeper Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you choose the auto-save interval, the restore delay, automatic restore, launch at login, and apps to exclude, and they show the Accessibility permission status.</em></p>
 
 ## Install
 

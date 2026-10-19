@@ -1,0 +1,4 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar menu shows the current monitor setup, the saved-layout status, Save Now and Restore Now, and the Known Configurations submenu.","alt":"DisplayLayoutKeeper menu bar menu"},
+  {"file":"02-settings.png","caption":"Settings let you choose the auto-save interval, the restore delay, automatic restore, launch at login, and apps to exclude, and they show the Accessibility permission status.","alt":"DisplayLayoutKeeper Settings window"}
+]

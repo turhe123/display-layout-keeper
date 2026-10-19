@@ -1,0 +1,60 @@
+{
+  "seo_title": "Window layout restore for macOS",
+  "seo_description": "DisplayLayoutKeeper is a free, open-source menu bar app that remembers window positions for each monitor setup and restores them when displays change.",
+  "hero_title_line1": "Your windows,",
+  "hero_title_accent": "back where they belong.",
+  "hero_sub": "DisplayLayoutKeeper saves window positions for each monitor setup and restores them when you dock, undock or wake your Mac. It lives in the menu bar; Save Now is ⌘S, Restore Now is ⌘R.",
+  "features_title": "Built for multi-monitor Macs.",
+  "features_sub": "Everything runs locally, with no accounts, servers or telemetry.",
+  "features": [
+    {
+      "icon": "display",
+      "title": "A layout per monitor setup",
+      "desc": "Each arrangement is identified by every display's UUID, pixel size and position, so layouts survive port changes."
+    },
+    {
+      "icon": "clock",
+      "title": "Automatic snapshots",
+      "desc": "Windows are saved every 60 seconds by default (10 to 600), once the setup has been stable for 5 seconds, and again just before sleep."
+    },
+    {
+      "icon": "window",
+      "title": "Restore when displays change",
+      "desc": "After a configurable delay (3 seconds by default), windows return to their saved frames. Positions are clamped onto the nearest connected display."
+    },
+    {
+      "icon": "sliders",
+      "title": "Smart window matching",
+      "desc": "Windows match by app bundle ID and exact title, then fall back to window index. That keeps browser windows with changing tab titles in place."
+    },
+    {
+      "icon": "shield",
+      "title": "Exclude apps you choose",
+      "desc": "Pick apps from /Applications that should never be saved or moved. Launch at login and auto-restore are simple toggles in Settings."
+    },
+    {
+      "icon": "lock",
+      "title": "Private and local",
+      "desc": "Layouts are stored as JSON files on your Mac, capped at 20 configurations. Screen Recording is not requested."
+    }
+  ],
+  "permissions_step": "When prompted, grant Accessibility access in System Settings → Privacy & Security → Accessibility; notifications are optional.",
+  "faq": [
+    {
+      "q": "Is DisplayLayoutKeeper free and open source?",
+      "a": "Yes. It is free and released under the MIT license, with the full source on GitHub. If it saves you some headaches, you can support development through the Ko-fi link in the app."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Accessibility is required so the app can read window titles, positions and sizes and move windows on restore. Notifications are optional and used only for a short confirmation after an automatic restore. It does not ask for Screen Recording, Camera or Microphone."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only on your Mac, in Application Support under DisplayLayoutKeeper/Snapshots, as one JSON file per monitor configuration. Nothing is sent anywhere, and you can delete any saved layout from the menu."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, which this free project does not have. Right-click the app and choose Open once to approve it, or build it yourself from source with Xcode."
+    }
+  ]
+}
